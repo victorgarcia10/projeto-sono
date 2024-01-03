@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Programa Sono</title>
+</head>
+<body>
+    <header>
+        <h1>Programa Sono</h1>
+    </header>
+
+    <section>
+
+        <div>
+            <p>
+                Digite Seu Nome: <input type="text" name="txtn" id="txtn" placeholder="Digite Seu Nome">
+            </p>
+
+            <p>
+                <input type="radio" name="radsex" id="mas">
+                <label for="mas">Masculino</label>
+
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+            </p>
+            <p>
+                Digite sua Idade <input type="number" name="txti" id="txti" placeholder="Digite sua Idade">
+            </p>
+
+            <p>
+                Digite quantas horas você Dorme: <input type="number" name="txtd" id="txtd" placeholder="quantas horas dorme">
+            </p>
+
+            <p><input type="button" value="Analisar" onclick="analisando()"></p>
+
+        </div>
+
+        <div id="res" style="text-align: center;">
+            Verificando...
+
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>
+            &copy;CursoVictor.com
+        </p>
+    </footer>
+</body>
+</html>
